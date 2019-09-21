@@ -1,0 +1,130 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>404</title>
+    <style>
+        /*
+        ████████╗███╗   ██╗     ██████╗███████╗███████╗
+        ╚══██╔══╝████╗  ██║    ██╔════╝██╔════╝██╔════╝
+           ██║   ██╔██╗ ██║    ██║     ███████╗███████╗
+           ██║   ██║╚██╗██║    ██║     ╚════██║╚════██║
+           ██║   ██║ ╚████║    ╚██████╗███████║███████║
+           ╚═╝   ╚═╝  ╚═══╝     ╚═════╝╚══════╝╚══════╝
+*/
+        body {
+            background: #004f67;
+            font-family: Consolas, serif;
+        }
+
+        p {
+            margin: 0;
+            color: #fff;
+            line-height: 30px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .lose-en {
+            font-size: 14px;
+        }
+
+        .lose-main {
+            background: url("images/lose-bg.png") 0 0 no-repeat;
+            background-size: 100%;
+            /*min-height: 540px;*/
+        }
+        @media screen and (max-width: 600px) {
+            .lose-box {
+                width: 90%;
+                height: 450px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                /*margin: -225px 0 0 -220px;*/
+                background-image: url("images/pic1.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                /*background-size: 100%;*/
+            }
+        }
+        @media only screen and (min-width: 600px) {
+            .lose-box {
+                width: 450px;
+                height: 450px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                /*margin: -225px 0 0 -220px;*/
+                background-image: url("images/pic1.png");
+                background-size: contain;
+                background-repeat: no-repeat;
+                /*background-size: 100%;*/
+            }
+        }
+
+        .lose-box div {
+            width: 100%;
+            height: 200px;
+            margin-bottom: 50px;
+        }
+
+        .lose-box a {
+            width: 218px;
+            height: 50px;
+            display: block;
+            margin: 50px auto 0 auto;
+            border: solid 1px #fff;
+            border-radius: 3px;
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+            text-decoration: none;
+            transition: all ease-out .4s;
+        }
+
+        .lose-box a:hover {
+            background: #fff;
+            color: #004f67;
+            border-color: transparent;
+        }
+    </style>
+</head>
+<!--
+ ___   ___  ________  ___   ___          ________  ________  ________  _______
+|\  \ |\  \|\   __  \|\  \ |\  \        |\   __  \|\   __  \|\   ____\|\  ___ \
+\ \  \\_\  \ \  \|\  \ \  \\_\  \       \ \  \|\  \ \  \|\  \ \  \___|\ \   __/|
+ \ \______  \ \  \\\  \ \______  \       \ \   ____\ \   __  \ \  \  __\ \  \_|/__
+  \|_____|\  \ \  \\\  \|_____|\  \       \ \  \___|\ \  \ \  \ \  \|\  \ \  \_|\ \
+         \ \__\ \_______\     \ \__\       \ \__\    \ \__\ \__\ \_______\ \_______\
+          \|__|\|_______|      \|__|        \|__|     \|__|\|__|\|_______|\|_______|
+-->
+<body>
+<div class="lose-main">
+    <div class="lose-box">
+        <div></div>
+        <p>抱歉，没有找到您请求的页面</p>
+        <p class="lose-en">Sorry, didn't find the page you requet.</p>
+    </div>
+</div>
+
+</body>
+<script>
+    console.info("\n" +
+        " ___   ___  ________  ___   ___          ________  ________  ________  _______      \n" +
+        "|\\  \\ |\\  \\|\\   __  \\|\\  \\ |\\  \\        |\\   __  \\|\\   __  \\|\\   ____\\|\\  ___ \\     \n" +
+        "\\ \\  \\\\_\\  \\ \\  \\|\\  \\ \\  \\\\_\\  \\       \\ \\  \\|\\  \\ \\  \\|\\  \\ \\  \\___|\\ \\   __/|    \n" +
+        " \\ \\______  \\ \\  \\\\\\  \\ \\______  \\       \\ \\   ____\\ \\   __  \\ \\  \\  __\\ \\  \\_|/__  \n" +
+        "  \\|_____|\\  \\ \\  \\\\\\  \\|_____|\\  \\       \\ \\  \\___|\\ \\  \\ \\  \\ \\  \\|\\  \\ \\  \\_|\\ \\ \n" +
+        "         \\ \\__\\ \\_______\\     \\ \\__\\       \\ \\__\\    \\ \\__\\ \\__\\ \\_______\\ \\_______\\\n" +
+        "          \\|__|\\|_______|      \\|__|        \\|__|     \\|__|\\|__|\\|_______|\\|_______|\n" +
+        "                                                                                    \n" +
+        "                                                                                    \n" +
+        "                                                                                    \n")
+
+</script>
