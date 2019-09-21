@@ -2,7 +2,7 @@ package main
 
 import (
 	"./serve"
-	"src/github.com/tungyao/twngo/tnwb"
+	"github.com/tungyao/twngo/tnwb"
 )
 
 func main() {
