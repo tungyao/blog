@@ -7,6 +7,6 @@ import (
 
 func main() {
 	route := tnwb.NewRouter()
-	route.Get("/", serve.Index)
+	route.Get("/index", serve.Index)
 	_ = route.Listening(":81", route)
 }
