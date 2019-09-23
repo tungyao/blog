@@ -4,14 +4,18 @@ class Request {
         let t = this;
         return new Promise(function(resolve, reject) {
             let XHR = new XMLHttpRequest();
-            XHR.open('GET', t._root+url, true);
+            let u = t._root+url+"?";
+            for (let i in data){
+                u+=`${i}=${data[i]}`;
+            }
+            XHR.open('GET', u, true);
             XHR.setRequestHeader("Content-Type","application/json");
             XHR.onreadystatechange = function() {
                 if (XHR.readyState === 4) {
                     if (XHR.status === 200) {
                         try {
-                            let response = JSON.parse(XHR.responseText);
-                            resolve(response);
+                            // let response = JSON.parse(XHR.responseText);
+                            resolve(XHR.responseText);
                         } catch (e) {
                             reject(e);
                         }
