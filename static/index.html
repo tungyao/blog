@@ -7,8 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Yaop Index</title>
     <link rel="stylesheet" href="css/rewrite.css">
-    <script src="js/request.js?time"></script>
-    <script src="js/axios.js"></script>
+    <script src="js/request.js?time=time()"></script>
 </head>
 <body>
 <div class="container">
@@ -42,6 +41,7 @@
 </div>
 </body>
 <script>
-    Request.get("/index",{name:"123"}).then(data=>console.log(data));
+    let  data= {user:"me"};
+    Request.get("/index",JSON.stringify(data)).then(data=>console.log(data));
 </script>
 </html>

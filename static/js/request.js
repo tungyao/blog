@@ -14,8 +14,8 @@ class Request {
                 if (XHR.readyState === 4) {
                     if (XHR.status === 200) {
                         try {
-                            // let response = JSON.parse(XHR.responseText);
-                            resolve(XHR.responseText);
+                            let response = JSON.parse(XHR.responseText);
+                            resolve(response);
                         } catch (e) {
                             reject(e);
                         }
