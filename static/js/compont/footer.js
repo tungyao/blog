@@ -1,7 +1,7 @@
 const ft = new Mosaic({
     name: 'my-footer',
     element: 'footer',
-    view: function () {
+    view() {
         return html`
 <div style="margin: 0;padding: 1rem 0 0 0;height: 12rem;width: 100%;display: flex;justify-content: space-between;flex-direction: row">
        <div style="width: 10%;display: flex;flex-direction: column;justify-content: center;align-items: center;border-right: darkgray 1px solid">
@@ -12,7 +12,7 @@ const ft = new Mosaic({
        <div style="width: 90%;">
        <div style="display:flex;justify-content: flex-start;flex-flow: row wrap">
        <a href="https://mosaicjs.site" style="margin:1rem;width: 5rem;height: 5rem;display: flex;justify-content: center;align-items: center">
-              <img src="https://mosaicjs.site/MosaicLogo.50cf5e0e.png" alt="" width="100%" >
+              <img src="images/MosaicLogo.50cf5e0e.png" alt="" width="100%" >
 </a>
        <a href="https://golang.google.cn" style="margin:1rem;width: 5rem;height: 5rem;display: flex;justify-content: center;align-items: center">
        <img src="https://golang.google.cn/lib/godoc/images/go-logo-blue.svg" alt="" width="100%" >
@@ -34,6 +34,4 @@ const ft = new Mosaic({
 </div>
         `;
     }
-});
-// Paint the Mosaic onto the page.
-ft.paint();
+}).paint();

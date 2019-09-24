@@ -1,0 +1,37 @@
+body {
+  font-family: "Microsoft YaHei UI", monospace;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: "Microsoft YaHei UI", monospace;
+}
+.nav {
+  background-color: #503BDB;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.nav > .center {
+  width: 1120px;
+  height: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav > .center > .logo {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav > .center > .other {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/*# sourceMappingURL=global.css.map */

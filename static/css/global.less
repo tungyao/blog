@@ -1,0 +1,40 @@
+@basePrimary:#503BDB;
+@baseFontColor:#FFFFFF;
+@youName:"Tung";
+body{
+  font-family: "Microsoft YaHei UI", monospace;
+  padding: 0;
+  margin: 0;
+}
+a{
+  color: @baseFontColor;
+  text-decoration: none;
+  font-family: "Microsoft YaHei UI", monospace;
+}
+.nav{
+  background-color: @basePrimary;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  &>.center{
+    width: 1120px;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+    &>.logo{
+        width: 40%;
+        display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    &>.other{
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+  }
+
+}
