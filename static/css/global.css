@@ -34,4 +34,28 @@ a {
   justify-content: space-around;
   align-items: center;
 }
+.color1 {
+  background-color: #FFC107;
+}
+.color2 {
+  background-color: #3F51B5;
+}
+.color3 {
+  background-color: #009688;
+}
+.color4 {
+  background-color: #7C4DFF;
+}
+.color5 {
+  background-color: #607D8B;
+}
+.discover-list-item {
+  border-radius: 24px;
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
+}
 /*# sourceMappingURL=global.css.map */

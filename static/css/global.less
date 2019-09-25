@@ -1,6 +1,7 @@
 @basePrimary:#503BDB;
 @baseFontColor:#FFFFFF;
 @youName:"Tung";
+@listColor:#FFC107,#3F51B5,#009688,#7C4DFF,#607D8B;
 body{
   font-family: "Microsoft YaHei UI", monospace;
   padding: 0;
@@ -36,5 +37,23 @@ a{
         align-items: center;
     }
   }
+}
+.loopListColor(@count) when (@count <= length(@listColor)){
+  .color@{count}{
+    background-color: extract(@listColor, @count);
+  }
+  .loopListColor((@count + 1));
+}
+.loopListColor(1);
+.discover-list{
 
+}
+.discover-list-item{
+  border-radius: 24px;
+  height: 3rem;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 1rem;
 }
