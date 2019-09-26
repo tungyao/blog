@@ -1,61 +1,32 @@
 body {
   font-family: "Microsoft YaHei UI", monospace;
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
+
 a {
-  color: #FFFFFF;
+  color: #ffffff;
   text-decoration: none;
-  font-family: "Microsoft YaHei UI", monospace;
-}
-.nav {
-  background-color: #503BDB;
-  height: 4rem;
-  display: flex;
-  justify-content: center;
-}
-.nav > .center {
-  width: 1120px;
-  height: 100%;
-  display: flex;
-  flex-flow: row nowrap;
-  align-items: center;
-  justify-content: space-between;
-}
-.nav > .center > .logo {
-  width: 40%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-.nav > .center > .other {
-  width: 30%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.color1 {
-  background-color: #FFC107;
-}
-.color2 {
-  background-color: #3F51B5;
-}
-.color3 {
-  background-color: #009688;
-}
-.color4 {
-  background-color: #7C4DFF;
-}
-.color5 {
-  background-color: #607D8B;
-}
-.discover-list-item {
-  border-radius: 24px;
-  height: 3rem;
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 1rem;
-}
+  font-family: "Microsoft YaHei UI", monospace; }
+
+.bg-primary {
+  background-color: #2196f3; }
+
+.bg-success {
+  background-color: #4caf50; }
+
+.bg-info {
+  background-color: #00838f; }
+
+.bg-warning {
+  background-color: #fbc02d; }
+
+.bg-danger {
+  background-color: #f44336; }
+
+.bg-light {
+  background-color: #f8f9fa; }
+
+.bg-dark {
+  background-color: #343a40; }
+
 /*# sourceMappingURL=global.css.map */

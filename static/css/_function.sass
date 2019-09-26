@@ -1,0 +1,6 @@
+@import "var"
+
+@mixin createListColor($list)
+  @each $i,$j in $list
+    .bg-#{$i}
+      background-color: $j

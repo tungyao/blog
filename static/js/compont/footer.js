@@ -20,8 +20,8 @@ const ft = new Mosaic({
        <a href="http://nginx.org" style="margin:1rem;width: 5rem;height: 5rem;display: flex;justify-content: center;align-items: center">
        <img src="http://nginx.org/nginx.png" alt="" width="100%" >
 </a>
-       <a target="_blank" href="http://lesscss.cn" style="margin:1rem;width: 5rem;height: 5rem;display: flex;justify-content: center;align-items: center">
-       <img src="http://s.nodejs.cn/less/img/logo.png" alt="" width="100%">
+       <a target="_blank" href="https://sass-lang.com/" style="margin:1rem;width: 5rem;height: 5rem;display: flex;justify-content: center;align-items: center">
+       <img src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" alt="" width="100%">
 </a>
        <a target="_blank" href="https://redis.io" style="margin:1rem;width: 5rem;height: 5rem;display: flex;justify-content: center;align-items: center" >
        <img src="https://redis.io/images/redis.png" alt="" width="100%" >

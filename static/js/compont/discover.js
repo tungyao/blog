@@ -10,7 +10,7 @@ let discover = new Mosaic({
         return html`
         <div>
         <ul class="discover-list">
-        ${this.data.list.map((k,v)=>html`<li class="discover-list-item color${parseInt(Math.random()*5+1)}">${this.data.list[v]}</li>`)}
+        ${this.data.list.map((k,v)=>html`<li class="discover-list-item bg-${COLORLIST[parseInt(Math.random()*5+1)]}">${this.data.list[v]}</li>`)}
         
 </ul>
 </div>
@@ -18,7 +18,7 @@ let discover = new Mosaic({
     }
 });
 new Mosaic({
-    name: "my-discover",
+    name: "my-discover.sass",
     element: "discover",
     data: {pointer: "discover"},
     switchPage() {

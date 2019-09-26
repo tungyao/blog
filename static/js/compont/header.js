@@ -1,3 +1,11 @@
+const COLORLIST = [
+    "primary",
+    "success",
+    "info",
+    "warning",
+    "danger",
+    "light"
+];
 new Mosaic({
     name:"my-header",
     element:"header",
